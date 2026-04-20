@@ -1,28 +1,36 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Pokemon Stadium Doc",
-  description: "Documentation sur le jeu Pokemon Stadium",
+  description: "Revues de code pour Pokemon Stadium",
+
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: "Acceuil", link: "/" },
+      { text: "Liste de revues", link: "/reviews/" },
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: "Liens rapides",
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+          { text: "Liste de revues", link: "/reviews/" },
+          { text: "TrainerForm", link: "/reviews/trainer_form.md" },
+          { text: "HomePageView", link: "/reviews/home_page_view.md" },
+          { text: "ScoreItem", link: "/reviews/score_item.md" },
+          { text: "ScoreItem.test", link: "/reviews/score_item_test.md" },
+          { text: "EnemyInfo", link: "/reviews/enemy_info.md" },
+          { text: "PlayerInfo", link: "/reviews/player_info.md" },
+          { text: "GamePageView", link: "/reviews/./game_page_view.md" },
+          { text: "FightProgressBar", link: "/reviews/fight_progress_bar.md" },
+          { text: "Combat.ts", link: "/reviews/combat.md" },
+          { text: "GameState.ts", link: "/reviews/game_state.md" },
+        ],
+      },
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
-})
+    search: {
+      provider: "local",
+    },
+  },
+});

@@ -1,25 +1,16 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
+## IA Pour tout le coté style de la doc
+
 layout: home
 
 hero:
-  name: "Pokemon Stadium Doc"
-  text: "Documentation sur le jeu Pokemon Stadium"
-  tagline: My great project tagline
+  name: "Acceuil des revues de code"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      text: Voir les revues
+      link: /reviews/
 ---
 
+## But
+
+Ce site n'est que pour les revues de code
