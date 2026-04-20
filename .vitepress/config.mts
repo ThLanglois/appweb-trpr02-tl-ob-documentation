@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
+  base: "/appweb-trpr02-tl-ob-documentation/",
   title: "Pokemon Stadium Doc",
   description: "Revues de code pour Pokemon Stadium",
 
@@ -21,7 +22,7 @@ export default defineConfig({
           { text: "ScoreItem.test", link: "/reviews/score_item_test.md" },
           { text: "EnemyInfo", link: "/reviews/enemy_info.md" },
           { text: "PlayerInfo", link: "/reviews/player_info.md" },
-          { text: "GamePageView", link: "/reviews/./game_page_view.md" },
+          { text: "GamePageView", link: "/reviews/game_page_view.md" },
           { text: "FightProgressBar", link: "/reviews/fight_progress_bar.md" },
           { text: "Combat.ts", link: "/reviews/combat.md" },
           { text: "GameState.ts", link: "/reviews/game_state.md" },
